@@ -29,10 +29,11 @@ namespace Rebeca_Projeto
         private void button1_Click(object sender, EventArgs e)
         {
             {
-                
-                Form7 form = new Form7();   
+
+                Form7 form = new Form7();
                 form.Show();
                 this.Close();
+
 
             }
 
@@ -73,6 +74,11 @@ namespace Rebeca_Projeto
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
         {
 
         }

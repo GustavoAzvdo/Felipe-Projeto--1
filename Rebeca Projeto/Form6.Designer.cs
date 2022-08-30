@@ -89,7 +89,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(197, 209);
+            this.button5.Location = new System.Drawing.Point(332, 19);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(106, 23);
             this.button5.TabIndex = 13;
@@ -124,7 +124,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(10, 209);
+            this.button2.Location = new System.Drawing.Point(292, 284);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -134,7 +134,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(91, 209);
+            this.button1.Location = new System.Drawing.Point(373, 284);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 23);
             this.button1.TabIndex = 5;
@@ -405,6 +405,7 @@
             this.Name = "Form6";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuário Felipe";
+            this.Load += new System.EventHandler(this.Form6_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
