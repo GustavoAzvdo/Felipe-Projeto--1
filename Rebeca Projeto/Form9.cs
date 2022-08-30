@@ -7,42 +7,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Rebeca_Projeto
 {
-    public partial class Form13 : Form
+    public partial class Form9 : Form
     {
-        public Form13()
+        public Form9()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form10 form = new Form10(); 
+            Form10 form = new Form10();
             form.Show();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Adicionado com sucesso!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Deseja realmente deletar?", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            MessageBox.Show("Deseja confirmar o envio do atendimento? Dentro de 24 horas você receberá uma resposta através do contato enviado.", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
-            textBox4.Text = "";
             textBox5.Text = "";
-            textBox6.Text = "";
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

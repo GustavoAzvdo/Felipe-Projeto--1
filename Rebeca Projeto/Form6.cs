@@ -66,6 +66,16 @@ namespace Rebeca_Projeto
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Venda criada com sucesso", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

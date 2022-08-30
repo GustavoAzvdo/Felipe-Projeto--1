@@ -73,5 +73,12 @@ namespace Rebeca_Projeto
             form.Show();
             this.Close();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form9 form = new Form9();
+            form.Show();
+            this.Close();
+        }
     }
 }
