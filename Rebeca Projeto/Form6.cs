@@ -19,10 +19,12 @@ namespace Rebeca_Projeto
 
         private void button2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Deseja limpar todos os dados?", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
             textBox4.Text = "";
+            textBox12.Text = "";
 
         }
 
