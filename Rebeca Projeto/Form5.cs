@@ -41,7 +41,7 @@ namespace Rebeca_Projeto
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form9 form = new Form9();
+            Form10 form = new Form10();
             form.Show();
             this.Close();
         }

@@ -47,7 +47,6 @@ C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\o
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form6.resources
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form7.resources
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form8.resources
-C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form9.resources
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Properties.Resources.resources
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca Projeto.csproj.GenerateResource.cache
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca Projeto.csproj.CoreCompileInputs.cache
