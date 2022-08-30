@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.txtUsuário = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,15 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Little Delivery";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(10, 132);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(111, 23);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Recuperar senha";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -83,6 +92,7 @@
             this.txtSenha.Size = new System.Drawing.Size(367, 20);
             this.txtSenha.TabIndex = 3;
             this.txtSenha.UseSystemPasswordChar = true;
+            this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
             // 
             // txtUsuário
             // 
@@ -109,15 +119,6 @@
             this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuário:";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(10, 132);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Recuperar senha";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form4
             // 

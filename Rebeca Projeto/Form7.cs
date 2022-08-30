@@ -45,5 +45,10 @@ namespace Rebeca_Projeto
         {
             this.Close();
         }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

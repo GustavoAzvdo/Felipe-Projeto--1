@@ -29,6 +29,7 @@ namespace Rebeca_Projeto
         private void button1_Click(object sender, EventArgs e)
         {
             {
+            
 
                 Form7 form = new Form7();
                 form.Show();
@@ -56,6 +57,8 @@ namespace Rebeca_Projeto
         private void button6_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Pedido adicionado com sucesso !!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            textBox12.Text  +=   comboBox1.Text+"\r\n";
+
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -79,6 +82,17 @@ namespace Rebeca_Projeto
         }
 
         private void Form6_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
