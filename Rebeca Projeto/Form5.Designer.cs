@@ -32,6 +32,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +56,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Location = new System.Drawing.Point(10, 7);
             this.groupBox1.Name = "groupBox1";
@@ -62,6 +64,17 @@
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Littles Delivery";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Cyan;
+            this.button2.Location = new System.Drawing.Point(129, 83);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(185, 23);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Administrador";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form5
             // 
@@ -85,5 +98,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button2;
     }
 }

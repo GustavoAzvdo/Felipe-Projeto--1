@@ -16,5 +16,12 @@ namespace Rebeca_Projeto
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form8 form = new Form8();
+            form.Show();
+            this.Close();
+        }
     }
 }

@@ -54,7 +54,7 @@ namespace Rebeca_Projeto
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Pedido adicionado com sucesso !!!");
+            MessageBox.Show("Pedido adicionado com sucesso !!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button7_Click(object sender, EventArgs e)
