@@ -23,5 +23,12 @@ namespace Rebeca_Projeto
             form.Show();
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form10 form = new Form10();
+            form.Show();
+            this.Close();
+        }
     }
 }
