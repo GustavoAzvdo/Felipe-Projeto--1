@@ -38,12 +38,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,6 +125,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.textBox3);
@@ -144,14 +148,33 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Littles Delivery";
             // 
-            // button4
+            // textBox5
             // 
-            this.button4.Location = new System.Drawing.Point(474, 273);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Sair";
-            this.button4.UseVisualStyleBackColor = true;
+            this.textBox5.Location = new System.Drawing.Point(118, 149);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(210, 20);
+            this.textBox5.TabIndex = 13;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(118, 117);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(210, 20);
+            this.textBox4.TabIndex = 12;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(118, 62);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(210, 20);
+            this.textBox3.TabIndex = 11;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(118, 91);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(210, 20);
+            this.textBox2.TabIndex = 10;
             // 
             // textBox1
             // 
@@ -161,33 +184,31 @@
             this.textBox1.TabIndex = 9;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // button4
             // 
-            this.textBox2.Location = new System.Drawing.Point(118, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(210, 20);
-            this.textBox2.TabIndex = 10;
+            this.button4.Location = new System.Drawing.Point(474, 273);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "Sair";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // textBox6
             // 
-            this.textBox3.Location = new System.Drawing.Point(118, 62);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(210, 20);
-            this.textBox3.TabIndex = 11;
+            this.textBox6.Location = new System.Drawing.Point(407, 26);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(127, 145);
+            this.textBox6.TabIndex = 15;
             // 
-            // textBox4
+            // label6
             // 
-            this.textBox4.Location = new System.Drawing.Point(118, 117);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(210, 20);
-            this.textBox4.TabIndex = 12;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(118, 149);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(210, 20);
-            this.textBox5.TabIndex = 13;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(355, 29);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(49, 13);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Carrinho:";
             // 
             // Form7
             // 
@@ -222,5 +243,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label6;
     }
 }
