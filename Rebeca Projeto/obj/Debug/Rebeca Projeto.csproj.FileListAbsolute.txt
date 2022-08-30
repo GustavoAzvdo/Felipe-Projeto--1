@@ -84,3 +84,4 @@ C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form7.resources
 C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca Projeto.csproj.SuggestedBindingRedirects.cache
 C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form16.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form17.resources

@@ -63,10 +63,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button8 = new System.Windows.Forms.Button();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.button8 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -271,7 +271,11 @@
             "X-Salada",
             "X-Frango",
             "X-Egg",
-            "X-Brasil"});
+            "X-Brasil",
+            "Coca 1L",
+            "Coca lata",
+            "Cerveja",
+            "Água"});
             this.comboBox1.Location = new System.Drawing.Point(71, 103);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -331,6 +335,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(259, 20);
             this.textBox6.TabIndex = 7;
+            this.textBox6.Text = "Automático";
             // 
             // textBox5
             // 
@@ -407,6 +412,16 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Alteração";
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(297, 110);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 11;
+            this.button8.Text = "Voltar";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(198, 30);
@@ -427,16 +442,6 @@
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(297, 110);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "Voltar";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Form6
             // 

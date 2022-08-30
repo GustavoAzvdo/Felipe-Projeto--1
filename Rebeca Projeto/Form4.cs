@@ -61,6 +61,13 @@ namespace Rebeca_Projeto
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form17 form = new Form17();
+            form.Show();
+            this.Close();
+        }
     }
 }
 
