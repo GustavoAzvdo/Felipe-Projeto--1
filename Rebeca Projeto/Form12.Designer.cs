@@ -185,6 +185,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 308);
             this.Controls.Add(this.groupBox1);
+            this.MinimizeBox = false;
             this.Name = "Form12";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Produtos";
