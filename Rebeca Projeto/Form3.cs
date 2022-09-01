@@ -29,7 +29,11 @@ namespace Rebeca_Projeto
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();   
+
+            this.Hide();
+            Form4 form = new Form4();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)

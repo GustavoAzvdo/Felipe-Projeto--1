@@ -24,9 +24,32 @@ namespace Rebeca_Projeto
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form4 form = new Form4();
+            form.Closed += (s, args) => this.Close();
             form.Show();
-            this.Close();
+        }
+
+        private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
+        {
+
+        }
+
+        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
+        {
+                    }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=6GfqT-HKsY8");
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 form = new Form4();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
         }
     }
 }
