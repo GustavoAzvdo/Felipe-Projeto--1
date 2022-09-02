@@ -33,9 +33,10 @@ namespace Rebeca_Projeto
                 if (txtUsuário.Text.Equals("Felipe") && txtSenha.Text.Equals("0"))
 
                 {
-                    Form5 from = new Form5();
-                    from.Show();
-                    this.Close();
+                    this.Hide();
+                    Form5 form = new Form5();
+                    form.Closed += (s, args) => this.Close();
+                    form.Show();
                 }
                 else
                 {
@@ -68,7 +69,7 @@ namespace Rebeca_Projeto
         private void button3_Click(object sender, EventArgs e)
         {
             
-            this.Hide();
+            
             Form17 form = new Form17();
             form.Closed  += (s, args) => this.Close();
             form.Show();
@@ -76,7 +77,7 @@ namespace Rebeca_Projeto
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Form3 form = new Form3();
             form.Closed += (s, args) => this.Close();
             form.Show();

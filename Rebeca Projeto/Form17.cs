@@ -51,5 +51,10 @@ namespace Rebeca_Projeto
             form.Closed += (s, args) => this.Close();
             form.Show();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=3dsHZbLDyj4");
+        }
     }
 }

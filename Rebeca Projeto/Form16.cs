@@ -25,5 +25,10 @@ namespace Rebeca_Projeto
             textBox3.Text = "";
             textBox5.Text = "";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

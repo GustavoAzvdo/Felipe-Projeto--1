@@ -31,9 +31,10 @@ namespace Rebeca_Projeto
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form6 form = new Form6();
+            form.Closed += (s, args) => this.Close();
             form.Show();
-            this.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
