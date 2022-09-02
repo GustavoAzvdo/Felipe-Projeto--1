@@ -19,7 +19,10 @@ namespace Rebeca_Projeto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            Form10 form = new Form10();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -45,6 +48,11 @@ namespace Rebeca_Projeto
         private void button4_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -89,5 +89,21 @@ namespace Rebeca_Projeto
             form.Closed += (s, args) => this.Close();
             form.Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form = new Form2();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form19 form = new Form19();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
+        }
     }
 }

@@ -50,7 +50,10 @@ namespace Rebeca_Projeto
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            Form18 form = new Form18();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
 
         }
     }
