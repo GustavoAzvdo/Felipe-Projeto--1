@@ -48,35 +48,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ultimas Vendas Func.cs">
+    <Compile Include="96 - Ultimas Vendas Funcionário.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ultimas Vendas Func.Designer.cs">
-      <DependentUpon>Ultimas Vendas Func.cs</DependentUpon>
+    <Compile Include="96 - Ultimas Vendas Funcionário.Designer.cs">
+      <DependentUpon>96 - Ultimas Vendas Funcionário.cs</DependentUpon>
     </Compile>
-    <Compile Include="UltimasVendasADM.cs">
+    <Compile Include="97 - Menu Funcionário ADM.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UltimasVendasADM.Designer.cs">
-      <DependentUpon>UltimasVendasADM.cs</DependentUpon>
+    <Compile Include="97 - Menu Funcionário ADM.Designer.cs">
+      <DependentUpon>97 - Menu Funcionário ADM.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gerenciamento.cs">
+    <Compile Include="97 - UltimasVendas Administrador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gerenciamento.Designer.cs">
-      <DependentUpon>Gerenciamento.cs</DependentUpon>
+    <Compile Include="97 - UltimasVendas Administrador.Designer.cs">
+      <DependentUpon>97 - UltimasVendas Administrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administração Geral.cs">
+    <Compile Include="4- Administração Geral.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administração Geral.Designer.cs">
-      <DependentUpon>Administração Geral.cs</DependentUpon>
+    <Compile Include="4- Administração Geral.Designer.cs">
+      <DependentUpon>4- Administração Geral.cs</DependentUpon>
     </Compile>
-    <Compile Include="Produtos em destaque.cs">
+    <Compile Include="92 - Ranking de produtos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Produtos em destaque.Designer.cs">
-      <DependentUpon>Produtos em destaque.cs</DependentUpon>
+    <Compile Include="92 - Ranking de produtos.Designer.cs">
+      <DependentUpon>92 - Ranking de produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="99- Abrir venda ADM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="99- Abrir venda ADM.Designer.cs">
+      <DependentUpon>99- Abrir venda ADM.cs</DependentUpon>
     </Compile>
     <Compile Include="Produtos.cs">
       <SubType>Form</SubType>
@@ -84,160 +90,145 @@
     <Compile Include="Produtos.Designer.cs">
       <DependentUpon>Produtos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estoque.cs">
+    <Compile Include="7 - Estoque.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Estoque.Designer.cs">
-      <DependentUpon>Estoque.cs</DependentUpon>
+    <Compile Include="7 - Estoque.Designer.cs">
+      <DependentUpon>7 - Estoque.cs</DependentUpon>
     </Compile>
-    <Compile Include="Contabilidade.cs">
+    <Compile Include="91 - Problemas Relatados %28 Avisos %29.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Contabilidade.Designer.cs">
-      <DependentUpon>Contabilidade.cs</DependentUpon>
+    <Compile Include="91 - Problemas Relatados %28 Avisos %29.Designer.cs">
+      <DependentUpon>91 - Problemas Relatados %28 Avisos %29.cs</DependentUpon>
     </Compile>
-    <Compile Include="Avisos.cs">
+    <Compile Include="9 - Produtos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Avisos.Designer.cs">
-      <DependentUpon>Avisos.cs</DependentUpon>
+    <Compile Include="9 - Produtos.Designer.cs">
+      <DependentUpon>9 - Produtos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form16.cs">
+    <Compile Include="95 - FAQ.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form16.Designer.cs">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <Compile Include="95 - FAQ.Designer.cs">
+      <DependentUpon>95 - FAQ.cs</DependentUpon>
     </Compile>
-    <Compile Include="FAQ.cs">
+    <Compile Include="1 - Menu Inicial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FAQ.Designer.cs">
-      <DependentUpon>FAQ.cs</DependentUpon>
+    <Compile Include="1 - Menu Inicial.Designer.cs">
+      <DependentUpon>1 - Menu Inicial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tela bem-vindo.cs">
+    <Compile Include="5 - Cadastrar função.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tela bem-vindo.Designer.cs">
-      <DependentUpon>Tela bem-vindo.cs</DependentUpon>
+    <Compile Include="5 - Cadastrar função.Designer.cs">
+      <DependentUpon>5 - Cadastrar função.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastrar funcionário.cs">
+    <Compile Include="6 - Cadastrar Usuário.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastrar funcionário.Designer.cs">
-      <DependentUpon>Cadastrar funcionário.cs</DependentUpon>
+    <Compile Include="6 - Cadastrar Usuário.Designer.cs">
+      <DependentUpon>6 - Cadastrar Usuário.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastramento.cs">
+    <Compile Include="2- Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastramento.Designer.cs">
-      <DependentUpon>Cadastramento.cs</DependentUpon>
+    <Compile Include="2- Login.Designer.cs">
+      <DependentUpon>2- Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro.cs">
+    <Compile Include="3- Menu Funcionário.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastro.Designer.cs">
-      <DependentUpon>Cadastro.cs</DependentUpon>
+    <Compile Include="3- Menu Funcionário.Designer.cs">
+      <DependentUpon>3- Menu Funcionário.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="98 - Vendas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="98 - Vendas.Designer.cs">
+      <DependentUpon>98 - Vendas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu Funcionário.cs">
+    <Compile Include="8 - Fechar Caixa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu Funcionário.Designer.cs">
-      <DependentUpon>Menu Funcionário.cs</DependentUpon>
+    <Compile Include="8 - Fechar Caixa.Designer.cs">
+      <DependentUpon>8 - Fechar Caixa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vendas.cs">
+    <Compile Include="94 - Total de vendas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vendas.Designer.cs">
-      <DependentUpon>Vendas.cs</DependentUpon>
+    <Compile Include="94 - Total de vendas.Designer.cs">
+      <DependentUpon>94 - Total de vendas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fechamento da venda.cs">
+    <Compile Include="93 - Suporte %28 Não usado %29.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fechamento da venda.Designer.cs">
-      <DependentUpon>Fechamento da venda.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Total de vendas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Total de vendas.Designer.cs">
-      <DependentUpon>Total de vendas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Suporte.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Suporte.Designer.cs">
-      <DependentUpon>Suporte.cs</DependentUpon>
+    <Compile Include="93 - Suporte %28 Não usado %29.Designer.cs">
+      <DependentUpon>93 - Suporte %28 Não usado %29.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Ultimas Vendas Func.resx">
-      <DependentUpon>Ultimas Vendas Func.cs</DependentUpon>
+    <EmbeddedResource Include="96 - Ultimas Vendas Funcionário.resx">
+      <DependentUpon>96 - Ultimas Vendas Funcionário.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UltimasVendasADM.resx">
-      <DependentUpon>UltimasVendasADM.cs</DependentUpon>
+    <EmbeddedResource Include="97 - Menu Funcionário ADM.resx">
+      <DependentUpon>97 - Menu Funcionário ADM.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gerenciamento.resx">
-      <DependentUpon>Gerenciamento.cs</DependentUpon>
+    <EmbeddedResource Include="97 - UltimasVendas Administrador.resx">
+      <DependentUpon>97 - UltimasVendas Administrador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administração Geral.resx">
-      <DependentUpon>Administração Geral.cs</DependentUpon>
+    <EmbeddedResource Include="4- Administração Geral.resx">
+      <DependentUpon>4- Administração Geral.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Produtos em destaque.resx">
-      <DependentUpon>Produtos em destaque.cs</DependentUpon>
+    <EmbeddedResource Include="92 - Ranking de produtos.resx">
+      <DependentUpon>92 - Ranking de produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="99- Abrir venda ADM.resx">
+      <DependentUpon>99- Abrir venda ADM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Produtos.resx">
       <DependentUpon>Produtos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Estoque.resx">
-      <DependentUpon>Estoque.cs</DependentUpon>
+    <EmbeddedResource Include="7 - Estoque.resx">
+      <DependentUpon>7 - Estoque.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Contabilidade.resx">
-      <DependentUpon>Contabilidade.cs</DependentUpon>
+    <EmbeddedResource Include="91 - Problemas Relatados %28 Avisos %29.resx">
+      <DependentUpon>91 - Problemas Relatados %28 Avisos %29.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Avisos.resx">
-      <DependentUpon>Avisos.cs</DependentUpon>
+    <EmbeddedResource Include="9 - Produtos.resx">
+      <DependentUpon>9 - Produtos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form16.resx">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <EmbeddedResource Include="95 - FAQ.resx">
+      <DependentUpon>95 - FAQ.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FAQ.resx">
-      <DependentUpon>FAQ.cs</DependentUpon>
+    <EmbeddedResource Include="1 - Menu Inicial.resx">
+      <DependentUpon>1 - Menu Inicial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tela bem-vindo.resx">
-      <DependentUpon>Tela bem-vindo.cs</DependentUpon>
+    <EmbeddedResource Include="5 - Cadastrar função.resx">
+      <DependentUpon>5 - Cadastrar função.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cadastrar funcionário.resx">
-      <DependentUpon>Cadastrar funcionário.cs</DependentUpon>
+    <EmbeddedResource Include="6 - Cadastrar Usuário.resx">
+      <DependentUpon>6 - Cadastrar Usuário.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cadastramento.resx">
-      <DependentUpon>Cadastramento.cs</DependentUpon>
+    <EmbeddedResource Include="2- Login.resx">
+      <DependentUpon>2- Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cadastro.resx">
-      <DependentUpon>Cadastro.cs</DependentUpon>
+    <EmbeddedResource Include="3- Menu Funcionário.resx">
+      <DependentUpon>3- Menu Funcionário.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="98 - Vendas.resx">
+      <DependentUpon>98 - Vendas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu Funcionário.resx">
-      <DependentUpon>Menu Funcionário.cs</DependentUpon>
+    <EmbeddedResource Include="8 - Fechar Caixa.resx">
+      <DependentUpon>8 - Fechar Caixa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vendas.resx">
-      <DependentUpon>Vendas.cs</DependentUpon>
+    <EmbeddedResource Include="94 - Total de vendas.resx">
+      <DependentUpon>94 - Total de vendas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Fechamento da venda.resx">
-      <DependentUpon>Fechamento da venda.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Total de vendas.resx">
-      <DependentUpon>Total de vendas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Suporte.resx">
-      <DependentUpon>Suporte.cs</DependentUpon>
+    <EmbeddedResource Include="93 - Suporte %28 Não usado %29.resx">
+      <DependentUpon>93 - Suporte %28 Não usado %29.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

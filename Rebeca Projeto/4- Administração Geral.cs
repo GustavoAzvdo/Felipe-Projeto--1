@@ -51,10 +51,7 @@ namespace Rebeca_Projeto
 
         private void button7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Contabilidade form = new Contabilidade();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
+            
 
         }
 
@@ -109,9 +106,14 @@ namespace Rebeca_Projeto
         private void button12_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form5 form = new Form5();
+            _97___Menu_Funcionário_ADM form = new _97___Menu_Funcionário_ADM();
             form.Closed += (s, args) => this.Close();
             form.Show();
+        }
+
+        private void Form10_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

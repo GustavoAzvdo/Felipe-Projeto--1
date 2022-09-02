@@ -28,9 +28,18 @@ namespace Rebeca_Projeto
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form5 destino = new Form5(textBox1.Text);
-            destino.Show();
-            
+            MessageBox.Show("Mensagem enviada com sucesso para os funcionários.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form15_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

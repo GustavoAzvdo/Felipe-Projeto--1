@@ -32,7 +32,7 @@ namespace Rebeca_Projeto
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Vendas form = new Vendas();
+            Form5 form = new Form5();
             form.Closed += (s, args) => this.Close();
             form.Show();
         }
@@ -44,10 +44,16 @@ namespace Rebeca_Projeto
 
         private void button4_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Deseja realmente sair?", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             this.Close();
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form7_Load(object sender, EventArgs e)
         {
 
         }
