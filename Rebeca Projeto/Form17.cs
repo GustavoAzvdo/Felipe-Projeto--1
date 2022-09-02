@@ -56,5 +56,17 @@ namespace Rebeca_Projeto
         {
             System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=3dsHZbLDyj4");
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=XAzcLUEwMzQ");
+
+        }
+        
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=Zi_XLOBDo_Y");
+        }
     }
 }

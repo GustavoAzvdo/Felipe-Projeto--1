@@ -71,6 +71,7 @@
             this.linkLabel4.TabIndex = 3;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "Quais os planos disponíveis?";
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
             // linkLabel3
             // 
@@ -81,6 +82,7 @@
             this.linkLabel3.TabIndex = 2;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Como faço para entrar em contato?";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // linkLabel2
             // 
