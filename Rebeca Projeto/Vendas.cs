@@ -111,6 +111,11 @@ namespace Rebeca_Projeto
             form.Closed += (s, args) => this.Close();
             form.Show();
         }
+
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

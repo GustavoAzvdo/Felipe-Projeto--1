@@ -38,12 +38,14 @@ namespace Rebeca_Projeto
                     form.Closed += (s, args) => this.Close();
                     form.Show();
                 }
-                else
+                if (txtUsuário.Text.Equals("Gustavo") && txtSenha.Text.Equals("0"))
                 {
-                    MessageBox.Show("Usuário ou senha incorretos.", "Desculpe", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    txtUsuário.Focus();
-                    txtSenha.Text = "";
+                    this.Hide();
+                    Form10 form = new Form10();
+                    form.Closed += (s, args) => this.Close();
+                    form.Show();
                 }
+                
             }
             catch (Exception ex)
             {

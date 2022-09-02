@@ -57,26 +57,17 @@ C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form1.resources
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form10.resources
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form11.resources
-C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form12.resources
-C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form13.resources
-C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form14.resources
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form15.resources
-C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form2.resources
-C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form3.resources
-C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form4.resources
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form5.resources
-C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form6.resources
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form8.resources
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Properties.Resources.resources
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca Projeto.csproj.GenerateResource.cache
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca Projeto.csproj.CoreCompileInputs.cache
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca Projeto.exe
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca Projeto.pdb
-C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form9.resources
 C:\Users\Felipe\source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form7.resources
 C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca Projeto.csproj.SuggestedBindingRedirects.cache
 C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form16.resources
-C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form17.resources
 C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form18.resources
 C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form19.resources
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Form16.resources
@@ -92,3 +83,14 @@ C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\o
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Cadastramento.resources
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Vendas.resources
 C:\Users\felipe.aspaula\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Suporte.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.UltimasVendasADM.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Gerenciamento.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Produtos.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Estoque.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Contabilidade.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.FAQ.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Cadastramento.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Cadastro.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Login.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Vendas.resources
+C:\Users\Felipe\Source\Repos\LittleLipe\Felipe-Projeto-\Rebeca Projeto\obj\Debug\Rebeca_Projeto.Suporte.resources

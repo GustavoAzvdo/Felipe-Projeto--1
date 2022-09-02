@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Rebeca_Projeto
 {
@@ -23,6 +24,13 @@ namespace Rebeca_Projeto
             Form10 form = new Form10();
             form.Closed += (s, args) => this.Close();
             form.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form5 destino = new Form5(textBox1.Text);
+            destino.Show();
+            
         }
     }
 }

@@ -101,7 +101,15 @@ namespace Rebeca_Projeto
         private void button11_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form19 form = new Form19();
+            Cadastro form = new Cadastro();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form5 form = new Form5();
             form.Closed += (s, args) => this.Close();
             form.Show();
         }
