@@ -56,5 +56,18 @@ namespace Rebeca_Projeto
             form.Show();
 
         }
+
+        private void abrirFecharCaixaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Vendas form = new Vendas();
+            form.FormClosed += (s, args) => this.Close();
+            form.Show();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

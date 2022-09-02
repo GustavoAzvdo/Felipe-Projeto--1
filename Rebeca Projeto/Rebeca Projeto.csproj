@@ -48,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ultimas Vendas Func.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ultimas Vendas Func.Designer.cs">
+      <DependentUpon>Ultimas Vendas Func.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UltimasVendasADM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UltimasVendasADM.Designer.cs">
+      <DependentUpon>UltimasVendasADM.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gerenciamento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +176,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ultimas Vendas Func.resx">
+      <DependentUpon>Ultimas Vendas Func.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UltimasVendasADM.resx">
+      <DependentUpon>UltimasVendasADM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gerenciamento.resx">
       <DependentUpon>Gerenciamento.cs</DependentUpon>
     </EmbeddedResource>
